@@ -4,7 +4,7 @@ module SeasonalHelper
   end
 
   def valentine(current_time)
-    current_time.month == 2 && current_time.day == 7
+    current_time.month == 2 && current_time.day == 14
   end
 
   # returns seasonal class
